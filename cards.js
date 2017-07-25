@@ -1,6 +1,5 @@
-exports.ClozeCard = function(full, cloze){
+exports.ClozeCards = function(full, cloze){
 	this.full = full;
 	this.cloze = cloze;
-	this.partial = full.replace(cloze, "__________");
+	this.partial = full.replace(cloze, "________");
 }; 
-
